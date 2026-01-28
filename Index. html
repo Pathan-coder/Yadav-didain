@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title></title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Mr.YADAV</title>
+
+  <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  
+
+</head>
+
+<body>
+
+  <!-- sorry your code is long bt nice -->
+
+<nav><button class="bar" id="bar"><div class="menu-icon" id="icon">
+
+  <span></span>
+
+  <span></span>
+
+  <span></span>
+
+  </div></button><div>nav bar </div>
+
+</nav>
+
+  <!-- maf kijiye mujhe ek sidebar banana hoga >-->
+
+  <aside id="aside"><button class="bar" id="ban">
+
+    <div class="menu-icon" id="icon2">
+
+      <span class="cr1"></span>
+
+      <span class="cr2"></span>
+
+    </div>
+
+  </button> <div class="asib">
+
+    <button class="hom">home</button>
+
+    <button class="cal">call</button>
+
+    <button class="mail">mail</button></div>
+
+  </aside>
+
+<!-- for call -->
+
+  <div class="inta">
+
+<button class="fun" id="cal"> 8770946079</button>
+
+  <script> let hhh = document.getElementById("cal"); hhh.addEventListener("click" , () =>{
+
+window.location.href="tel:+918770946079"
+
+})
+
+  </script>
+
+  
+
+  <!-- don't be confuse it's frist-->
+
+  <div class="boxes-1">
+
+    <span class="red1"></span><
+
+   <br> <span class="green-vall"></span>
+
+    <span class="red2"></span>
+
+          <span class="black1"></span>
+
+      <span class="content"><h2>YADAV 🏠 DESIGN</h2><p>Er. MADHAV SINGH YADAV</p> 
+
+        
+
+        <div class="gro">
+
+    <span class="top">...</span>
+
+    <span class="mid"></span>
+
+    <span class="bot">o</span>
+
+     </div> <p class="pen">+918770946079</p>
+
+     <div class="mail-icon"></div><p class="mala">yadavhousedesign@gmail.com</p> </span>
+
+  </div>
+
+  
+
+  <!-- second start same -->
+
+ <div class="boxes-1">
+
+    <span class="red1"></span><
+
+   <br> <span class="green-vall"></span>
+
+    <span class="red2"></span>
+
+          <span class="black1"></span>
+
+      
+
+   <!-- second vale ke-->
+
+      
+
+      <span class="contenm">
+
+        <h2>YADAV 🏠 DESIGN</h2><p>Er. MADHAV SINGH YADAV</p>
+
+      </span>
+
+    </div>
+
+  </div>
+
+  
+
+  <footer>©2026 mede by diya</footer>
+
+  
+
+<!-- The End 😄-->
+
+  
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
