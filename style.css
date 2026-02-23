@@ -1,10 +1,213 @@
 *{
-
   margin: 0;
-
   padding: 0;
-
+  height: auto;
 }
+.sliupr{
+  top:50px;
+  border: none;
+  width: 30vw;
+  height: 20vw;
+  background: none;
+  color: white;
+  font-size: 30px;
+  position: sticky;
+  right: 10%;
+  z-index: 10;
+}
+.h2{
+  color: blue;
+  top:30px;
+}
+html,body{
+  height: auto;
+  width: 100vw;
+  margin: 0;
+}.fun,.red1,.red2,.content,.contenm,.green-vall,.black1{
+  position: absolute;} 
+
+html, body .maina{
+  position: relative;
+ min-height: 100vh;
+  width:100%;
+  background-color:rgba(3, 5, 41, 0.8) ;
+  color: White ;
+  overflow: hidden;
+}
+#lon{
+  width: 10%;
+  height: 10%;
+}
+.loader{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+.loader .crn{
+  display: inline-block;
+  justify-content: center;
+  position: absolute ;
+  top: 40%;
+  left: 25%;
+  width: 70%;
+  overflow: hidden;
+  
+}
+#spn{
+  position: absolute ;
+  animation: mor 1s forwards;
+}
+@keyframes mor{
+  100%{
+    transform: translateX(5%)
+  }
+  0%{
+    transform: translateX(90%)
+  }
+}
+.fut{
+  width: 50%;
+  height: 50%;
+  display: block;
+  border: 2px solid white;
+  border-top-color: black;
+  border-bottom-color: black;
+  border-radius:50%;
+  animation: rot 0.7s infinite , upr 0.7s ease-in-out 2s forwards;
+}
+@keyframes rot{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+@keyframes upr{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(-120%);
+  }
+}
+.head{
+  overflow: hidden ;
+  animation: upr 0.7s ease-in-out 2s forwards;
+}
+#h3{
+  overflow: hidden ;
+  animation: upr 0.7s ease-in-out 2.5s forwards;
+}
+.ful{
+  display: block ;
+  position: absolute ;
+  top: 90%;
+  left: 45%;
+  width: 10vh;
+  height: 10vh;
+  overflow: hidden ;
+}
+.per{
+  width: 100vw;
+  height: 100vh;
+}
+.gree{
+  bottom: 0;
+  position: absolute ;
+  background-color: green;
+  width:100%;
+  height: 0;
+  animation: grr 0.8s ease-in-out 3s forwards;
+}
+@keyframes grr{
+  99.99%{
+    height: 100vh;
+  }
+  100%{
+    height: -100vh;
+  }
+}
+.pen{
+  z-index: 49;
+  height:auto;
+  animation:whr 1s ease-in-out 4s forwards;
+}
+.whi{
+  left: 0;
+  bottom: 0;
+  position: absolute ;
+  width:100%;
+  height: 0;
+  animation: whr 1s ease-in-out 4s forwards;
+ background-color: transparent;
+  z-index: 10;
+}
+@keyframes whr{
+  0{ display: none;}
+  100%{
+    height: 100%;
+    display: block;
+    overflow: auto;
+  }
+}
+
+.green-vall,.red1{
+  rotate: 45deg;}
+.red2,.black1{
+  rotate: -45deg;}
+.red1,.red2{
+  height: 65vw;
+  background-color: red;}
+.content,.contenm{
+    background-color: rgb(255, 243, 238 ,0.7);}
+.fun,.content,.boxes-1{
+  border-radius: 2%;
+}
+.fun{
+  background-color:#00A400;
+  font-size: 18px;
+  width: 120px;
+  padding: 10px;
+  top: 50px;
+  position: sticky;
+  border: none;
+  color: white ;
+    z-index: 8;
+transition: 3s}
+.fun:hover{
+  background-color: #128C7E;
+    transform: scale(1.1);
+}
+.boxes-1{
+  background-color: black ;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  left:auto;
+  right: auto;}
+.slide{
+  display: flex;
+  overflow-x:auto;
+  height: auto;
+  margin:40px auto 30px auto;
+  scroll-snap-type:x mandatory ;
+  border-radius: 10%;
+}
+.slide img{
+  flex-shrink: 0;
+  width: 90%;
+  scroll-snap-align: center;
+}
+.slide::-webkit-scrollbar{
+  display: block;
+  height: 6px;
+}
+.slide::webkit-scrollbar-thumb{
+  background: #ff4757;
+  border-radius:1%;
+  }
 
 /*only for mobile */
 
