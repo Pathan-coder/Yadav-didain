@@ -212,408 +212,189 @@ transition: 3s}
 /*only for mobile */
 
 @media screen and (max-width:460px){
-
-  .inta{
-
-    flex-direction: column ;
-
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    width :100%;
-
-    gap: 10%;
-
+.baue h2{
+    margin-left: 10%;
+}
+.baue p{
+  margin-left:15%;
+}
+.inta{
+  flex-direction: column ;
+  align-items: center;
+  flex-wrap: wrap;
+  width :100%;
+  gap: 10%;
+}
+.slide{
+  width:80%;
   }
-
-  .menu-icon{
-
-   width: 35px;
-
+.menu-icon{
+  width: 35px;
   height: 20px; 
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
-
    gap : 4px;
-
-  cursor: pointer;
-
+   cursor: pointer;
    position: relative;
-
-  }
-
-  .menu-icon span {
-
+}
+.menu-icon span {
   display: block;
-
   height: 3px;    
-
   width: 100%;
-
-  background-color: #333; 
-
+  background-color: white; 
   border-radius: 10px; 
-
   transition: 0.3s;     
-
 }
 
 #ban{
-
-  margin-top: 15px ;
-
+  margin-top: 50px;
 }
-
 #icon{
-
-  margin-left: -8rem;
-
+  left: -8rem;
 }
-
 #icon2{
-
   display: none;
-
   z-index: 11;
-
 }
-
 .cr1,.cr2{
-
   transition: 0.3s;     
-
   color : black;
-
   position: absolute;
-
 }
-
 .cr1{
-
   rotate: 45deg;
-
 }
-
 .cr2{
-
   rotate: -45deg;
-
 }
-
   .bar{
-
-    margin-top:1vw;
-
-    margin-left: 1vw;
-
+    top:5vw;
+    left: 5vw;
     padding: 0;
-
     width: 40px;
-
     background: none ;
-
     border: none;
-
   }
-
   aside{
-
     position: fixed;
-
     left: -100%;
-
     transition: 2s;
-
     top:0;
-
     width: 45vw;
-
   }
-
   .fun{
-
-    margin-left:65%;
-
+    left:65%;
   }
-
   .boxes-1{
-
-    margin-top: 50px;
-
     width: 90vw;
-
     height:calc( 60vw - 1rem);
+    margin-top:9%;
+  }
+  
+.green-vall{
+  width: 40%;
+  height: 40vw;
+  background-color: #3B9B6E;
+  transform-origin: bottom right;
+  top: 155px;
+  left :200px;}
+.red1{
+  width: 47%;
+  left: 165px;
+  top:-35px;}
+.red2{
+  width: 40%;
+  left: -9px;
+  top: 50px;}
+.black1{
+  width: 50%;
+  height: 50vw;
+  background-color: #222B25;
+  left: 10px;
+  top: -110px;}
 
   }
 
-  .fun,.red1,.red2,.content,.contenm,.green-vall,.black1{
 
-  position: absolute;} 
-
-.green-vall,.red1{
-
-  rotate: 45deg;}
-
-.red2,.black1{
-
-  rotate: -45deg;}
-
-.red1,.red2{
-
-  height: 65vw;
-
-  background-color: red;}
-
-.content,.contenm{
-
-    background-color: rgb(255, 243, 238 ,0.7);}
-
-.fun,.content,.boxes-1{
-
-  border-radius: 2%;
-
-}
-
-.fun{
-
-    background-color:#00A400;
-
-  font-size: 18px;
-
-  padding: 10px;
-
-  border: none;
-
-  color: white ;
-
-    z-index: 10;
-
-transition: 3s}
-
-.fun:hover{
-
-  background-color: #128C7E;
-
-    transform: scale(1.1);
-
-}
-
-.boxes-1{
-
-  background-color: black ;
-
-  justify-content: center;
-
-  position: relative;
-
-  overflow: hidden;
-
-margin:auto}
-
-.green-vall{
-
-  width: 40%;
-
-  height: 40vw;
-
-  background-color: #3B9B6E;
-
-  transform-origin: bottom right;
-
-  margin-top: 130px;
-
-  margin-left :210px;}
-
-.red1{
-
-  width: 47%;
-
-margin-left: 170px;
-
-  margin-top:-37px;}
-
-.red2{
-
-  width: 40%;
-
-margin-left: -1px;
-
-  margin-top: 35px;}
-
-.black1{
-
-  width: 50%;
-
-  height: 50vw;
-
-  background-color:  #222B25;
-
-margin-left: 10px;
-
-  margin-top: -130px;}
-
-}
 
 /* pc or tablet or desktop + rotate ke liye */
 
 @media screen and (min-width:768px),screen and (orientation: landscape){
-
-  .boxes-1{
-
-  width: 46vw;
-
-  height: 30vw ;
-
+  .h2{
+    margin-left: 40%;
   }
-
   .inta{
-
     width: 100vw;
-
     display: flex;
-
     flex-wrap: nowrap;
-
-    justify-content: center;
-
-    align-items: center;
-
   } 
-
+  .slide{
+    width: 50%;
+  }
   aside{
-
+    margin: 0;
     position: sticky;
-
     left: 0;
-
-    transition: 2s;
-
     width: 22vw;
-
-    top:0;
-
+    top:40px;
   }
-
-.fun,.red1,.red2,.content,.contenm,.green-vall,.black1{
-
-  position: absolute;} 
-
-.green-vall,.red1{
-
-  rotate: 45deg;}
-
-.red2,.black1{
-
-  rotate: -45deg;}
-
-.red1,.red2{
-
-  height: 35vw;
-
-  background-color: red;}
-
-.content,.contenm{
-
-    background-color: rgb(255, 243, 238 ,0.7);}
-
-.fun,.content,.boxes-1{
-
-  border-radius: 2%;
-
-}
-
-.fun{
-
-    background-color:#00A400;
-
-  font-size: 18px;
-
-  padding: 10px;
-
-  border: none;
-
-  color: white ;
-
-    z-index: 10;
-
-transition: 3s}
-
-.fun:hover{
-
-  background-color: #128C7E;
-
-    transform: scale(1.1);
-
-}
-
 .boxes-1{
-
+  width: 46vw;
+  height: 30vw;
   background-color: black ;
-
   justify-content: center;
-
   position: relative;
-
   overflow: hidden;
-
-margin: 10% auto;}
-
-.green-vall{
-
-  width: 40%;
-
-  height: 65%;
-
-  background-color: #3B9B6E;
-
-  transform-origin: bottom right;
-
-  margin-top: 48%;
-
-  margin-left :65%;}
-
-.red1{
-
-  width: 55%;
-
-margin-left: 47%;
-
-  margin-top: -15%;}
-
-.red2{
-
-  width: 40%;
-
-margin-left: -1px;
-
-  margin-top: 15%;}
-
-.black1{
-
-  width: 56%;
-
-  height: 56%;
-
-  background-color:  #222B25;
-
-margin-left: 10px;
-
-  margin-top: -30%;}
-
-  .bar{
-
-    display: none;
-
-  }
+  margin:auto;
+}
+#box1{
 
 }
+  
+.green-vall{
+  width: 40%;
+  height: 65%;
+  background-color: #3B9B6E;
+  transform-origin: bottom right;
+  margin-top: 48%;
+  margin-left :65%;}
+.red1{
+  width: 55%;
+margin-left: 47%;
+  margin-top: -15%;}
+.red2{
+  width: 40%;
+margin-left: -1px;
+  margin-top: 15%;}
+.black1{
+  width: 56%;
+  height: 56%;
+  background-color:  #222B25;
+margin-left: 10px;
+  margin-top: -30%;}
+  .bar{
+    display: none;
+  }
+  .baue h2{
+    margin-left: 30%;
+  }
+  .baue p{
+    margin-left: 35%;
+  }
+  .fun{
+    margin-left: 80%;
+  }
+}
 
-body{
+
+
+
+
+  
+
+  
+.whi{
 
   width: 100vw;
 
